@@ -3,15 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies</title>
+    <title>Hobbies - Mi Perfil Profesional</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <h1>Hobbies - Pasatiempos</h1>
-    <p>Aquí va el contenido de tus hobbies.</p>
 
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="estudios.html">Estudios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trabajos.html">Trabajos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header de Página -->
+    <header class="hero-section text-white d-flex align-items-center" style="height: 40vh;">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3"><i class="bi bi-heart me-3"></i>Mis Hobbies</h1>
+            <p class="lead opacity-75">Lo que me apasiona más allá del código</p>
+        </div>
+    </header>
+
+    <!-- Hobbies -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <h2 class="fw-bold mb-5 border-start border-primary border-4 ps-3">Pasatiempos e Intereses</h2>
+
+            <div class="row g-4">
+                <!-- Hobby 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm skill-card p-4 text-center">
+                        <i class="bi bi-controller fs-1 text-primary mb-3 d-block"></i>
+                        <h5 class="fw-bold">Gaming</h5>
+                        <p class="text-muted">Describe tu hobby aquí. Qué juegos te gustan, plataformas, etc.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm skill-card p-4 text-center">
+                        <i class="bi bi-music-note-beamed fs-1 text-primary mb-3 d-block"></i>
+                        <h5 class="fw-bold">Música</h5>
+                        <p class="text-muted">Describe tu hobby aquí. Qué géneros escuchas, si tocas algún instrumento, etc.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm skill-card p-4 text-center">
+                        <i class="bi bi-camera fs-1 text-primary mb-3 d-block"></i>
+                        <h5 class="fw-bold">Fotografía</h5>
+                        <p class="text-muted">Describe tu hobby aquí. Qué tipo de fotos tomas, equipo que usas, etc.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 4 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm skill-card p-4 text-center">
+                        <i class="bi bi-book fs-1 text-primary mb-3 d-block"></i>
+                        <h5 class="fw-bold">Lectura</h5>
+                        <p class="text-muted">Describe tu hobby aquí. Géneros favoritos, libros recomendados, etc.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm skill-card p-4 text-center">
+                        <i class="bi bi-bicycle fs-1 text-primary mb-3 d-block"></i>
+                        <h5 class="fw-bold">Deporte</h5>
+                        <p class="text-muted">Describe tu hobby aquí. Qué deportes practicas, con qué frecuencia, etc.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 6 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm skill-card p-4 text-center">
+                        <i class="bi bi-film fs-1 text-primary mb-3 d-block"></i>
+                        <h5 class="fw-bold">Cine & Series</h5>
+                        <p class="text-muted">Describe tu hobby aquí. Géneros favoritos, series recomendadas, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-dark text-white py-5">
+        <div class="container text-center py-4">
+            <h2 class="fw-bold mb-4">¿Tienes un proyecto en mente?</h2>
+            <p class="lead mb-5 opacity-75">¡Me encantaría escucharte! Contáctame para trabajar juntos.</p>
+            <div class="d-flex justify-content-center gap-4 mb-5">
+                <a href="#" class="text-white fs-3"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-white fs-3"><i class="bi bi-github"></i></a>
+                <a href="#" class="text-white fs-3"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            <a href="mailto:correo@ejemplo.com" class="btn btn-primary btn-lg px-5 rounded-pill shadow">Enviar un Mensaje</a>
+            <hr class="my-5 opacity-25">
+            <p class="small text-secondary mb-0">© 2026 [Tu Nombre]. Desarrollado con pasión.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
