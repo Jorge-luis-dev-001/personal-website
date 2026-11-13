@@ -50,9 +50,4 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
-    console.log(`Rutas disponibles:`);
-    console.log(`  -> http://localhost:${PORT}/`);
-    console.log(`  -> http://localhost:${PORT}/trabajos`);
-    console.log(`  -> http://localhost:${PORT}/estudios`);
-    console.log(`  -> http://localhost:${PORT}/hobbies`);
 });
